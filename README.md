@@ -35,6 +35,7 @@ Follow these steps to set up the Sales Management Application on your local envi
 
 7) Migrate Database Tables: Run the following command to create the necessary database tables for the application:
    a)php artisan migrate:fresh
+       i) In your php.ini file make sure to uncomment 'extension=pdo=mysql' and 'extension=mysql'
    b)php artisan db:seed
 
 9) Access the Application: Open a new browser window and navigate to http://127.0.0.1:8000/ to start using the Application.
