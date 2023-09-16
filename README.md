@@ -16,6 +16,8 @@ Before you begin setting up the Payfast Admin/User Message Application, ensure y
 
 2) PHP 8.1 or Later: Download PHP 8.1 or a later version from https://windows.php.net/download#php-8.1. Be sure to download the "VS16 x64 Thread Safe Zip" package.
 
+3) Node.js LTS: Download for Windows (x64) - nodejs.org/en
+
 Setup Instructions:
 
 Follow these steps to set up the Sales Management Application on your local environment:
@@ -41,3 +43,13 @@ Follow these steps to set up the Sales Management Application on your local envi
 9) Access the Application: Open a new browser window and navigate to http://127.0.0.1:8000/ to start using the Application.
 
 Feel free to reach out if you encounter any issues or have further questions.
+
+Seeded user:
+name = 'Test User',
+email = 'user@gmail.com',
+password = 'password'
+
+Seeded admin:
+name = 'Admin User',
+email = 'admin@gmail.com',
+password = 'password'
