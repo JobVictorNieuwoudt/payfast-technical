@@ -25,8 +25,9 @@ Follow these steps to set up the Sales Management Application on your local envi
 2) Open Command Prompt or Terminal: Navigate to the root directory of your project. For example, use the cd command to move to your project directory: cd C:\xampp\htdocs\Payfast\payfast
 
 3) Run Laravel Development Server: Start the Laravel development server by running the following command:
-    a) php artisan serve
-    b) npm run dev
+    a) composer install
+    b) php artisan serve
+    c) npm run dev
 
 5) Access phpMyAdmin: Open your web browser and go to http://localhost/phpmyadmin/
 
